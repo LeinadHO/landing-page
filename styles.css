@@ -176,3 +176,11 @@ a {
     border-color: #f9faf8;
     outline: none;
 }
+
+.footer {
+    background-color: #1f2937;
+    font-size: 18px;
+    color: #f9faf8;
+    text-align: center;
+    padding: 30px;
+}
