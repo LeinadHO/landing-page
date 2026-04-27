@@ -75,6 +75,7 @@ a {
     color: #f9faf8;
     width: 100px;
     border-radius: 6px;
+    font-weight: 900;
 }
 
 .hero-image {
@@ -143,4 +144,35 @@ a {
     color: #1f2937;
     font-weight: 900;
     align-self: flex-end;
+}
+
+.call-to-action {
+    background-color: #3882f6;
+    margin: 90px 17%;
+    padding: 40px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    gap: 70px;
+}
+
+.call-to-action-main-text {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.call-to-action-subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.call-to-action-button {
+    background-color: #3882f6;
+    padding: 5px 20px;
+    font-size: 14px;
+    color: #e5e7eb;
+    font-weight: 900;
+    border-color: #f9faf8;
+    outline: none;
 }
