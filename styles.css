@@ -7,13 +7,13 @@ body {
 }
 
 .section-one-background-color {
-    padding-bottom: 50px;
+    padding-bottom: 60px;
     background-color: #1f2937;
 }
 
 .header {
     margin-bottom: 40px;
-    padding: 10px 20%;
+    padding: 10px 17%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -43,7 +43,7 @@ a {
 }
 
 .hero {
-    padding: 10px 20%;
+    padding: 20px 17%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -80,4 +80,67 @@ a {
 .hero-image {
     height: 211px;
     width: 500px;
+}
+
+.information {
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.information-header {
+    padding-top: 30px;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.cards {
+    display: flex;
+    gap: 40px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+}
+
+.card-image {
+    border-radius: 10px;
+}
+
+.card-subtext {
+    max-width: 150px;
+    text-align: center;
+}
+
+.section-three-background-color {
+    background-color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.quote {
+    width: 800px;
+    padding: 90px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quotation {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+}
+
+.author {
+    font-size: 24px;
+    color: #1f2937;
+    font-weight: 900;
+    align-self: flex-end;
 }
